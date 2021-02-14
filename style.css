@@ -1,0 +1,47 @@
+.fa-user-circle {
+    font-size: 22px;
+
+}
+
+.top {
+    width: 100%;
+    height: 25vh;
+
+}
+
+.menu-top {
+    background-color: gray;
+    background-image: url("./img/bg-menu.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-menu {
+    justify-content: flex-end;
+    padding-right: 25px;
+
+}
+
+.navbar-nav a,
+.navbar-brand {
+    color: black;
+}
+
+.dropdown-item:hover {
+    color: brown;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+/* .inner-menu {
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+
+.footer {
+    flex: 0 0 auto;
+}
