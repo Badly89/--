@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-user-circle {
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+.top {}
+
+.menu-top {
+    width: 100%;
+    height: 150px;
+    /* background-color: gray; */
+    background-image: url("../img/bg-menu.gif");
+    /* background: url("../img/bg2.gif"); */
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+
+.dropdown-menu {
+    right: 0 !important;
+    left: auto;
+    z-index: 101;
+}
+
+.dropdown-menu[style] {
+    right: 0;
+}
+
+.top-menu {
+    justify-content: space-between;
+    padding-right: 25px;
+    z-index: 1;
+
+}
+
+.link-menu {
+    /* color: white; */
+}
+
+.dropdown-item:hover {
+
+    color: brown;
+    /* text-decoration: underline; */
+}
+
+.nav-link {
+    font-size: 18px;
+    color: black;
+
+}
+
+.navbar-nav {
+    background-color: rgb(205, 213, 255);
+    opacity: 70%;
+
+
+}
+
+
+.nav-link:hover {
+    color: red;
+    /* text-decoration: underline; */
+}
+
+/* block news*/
+.news {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.img-news {
+    padding: 10px;
+    width: 150px;
+}
+
+.card {
+    max-width: 540px;
+}
+
+.card-body {
+    margin-left: 15px;
+}
+
+.new-bottom {
+    flex: 0 0 auto;
+}
+
+/*block footer*/
+
+.footer {
+    /* flex: 0 0 auto; */
+    /* margin-top: 25px; */
+}
+
+.shilula_banner {
+    display: block;
+    /* position: sticky; */
+    /* top: 0; */
+    /* right: 10px; */
+    /* z-index: 1; */
+    /* min-height: 2em; */
+}
+
+aside {
+    /* background: #f0f0f0; */
+    padding: 10px;
+    width: 200px;
+    float: right;
+    position: sticky;
+    top: 0;
+    right: 10px;
+    z-index: 1;
+    min-height: 5em;
+}
