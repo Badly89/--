@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Орден драконов / Официально</title>
+    <title>Орден драконов / Проверенные заявки</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -14,67 +14,138 @@
 </head>
 
 <body>
-    <div class="wrap">
+    <aside class="right-menu">
+        <nav class="navbar navbar-expand-lg  nav-menu ">
+            <a class="navbar-brand" href="#"><img src="./img/site_logo.gif" alt="" class="logo-img"></a>
+            <div class="container-fluid"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                <div class="collapse navbar-collapse top-menu" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a class="nav-link active link-menu" aria-current="page"
+                                href="./index.html">Официально</a></li>
+                        <li class="nav-item"><a class="nav-link link-menu" href="#">Библиотека</a></li>
+                        <li class="nav-item"><a class="nav-link link-menu" href="./sud.html">Суд</a></li>
+                        <li class="nav-item"><a class="nav-link link-menu" href="#">Форум</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu" href="#"
+                                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Моя чистота </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Подача заявки на чистоту</a></li>
+                                <li><a class="dropdown-item" href="#">Мои заявки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu" href="#"
+                                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Чистота </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./zlist.html">все заявки</a></li>
+                                <li><a class="dropdown-item" href="./zlready.html">проверенные</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu" href="#"
+                                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" title="Логин">НИК <i class="far fa-user-circle"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">админка</a></li>
+                                <li><a class="dropdown-item" href="#">модерация</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="shilula_banner" class="shilula_banner"><a href="https://shilula.ru" target="_blank"><img
+                    src="https://shilula.ru/shilula_button/?theme=light"></a></div>
+    </aside>
+    <main class="">
+        <section class="news">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+            </nav>
 
-        <aside>
-            <nav class="navbar navbar-expand-lg  nav-menu ">
-                <a class="navbar-brand" href="#"><img src="./img/site_logo.gif" alt="" class="logo-img"></a>
-                <div class="container-fluid"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
-                    <div class="collapse navbar-collapse top-menu" id="navbarNavDropdown">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item"><a class="nav-link active link-menu" aria-current="page"
-                                    href="./index.html">Официально</a></li>
-                            <li class="nav-item"><a class="nav-link link-menu" href="#">Библиотека</a></li>
-                            <li class="nav-item"><a class="nav-link link-menu" href="#">Суд</a></li>
-                            <li class="nav-item"><a class="nav-link link-menu" href="#">Форум</a></li>
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu" href="#"
-                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Моя чистота </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Подача заявки на чистоту</a></li>
-                                    <li><a class="dropdown-item" href="#">Мои заявки</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu" href="#"
-                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Чистота </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="./zlist.html">все заявки</a></li>
-                                    <li><a class="dropdown-item" href="./zlready.html">проверенные</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu" href="#"
-                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" title="Логин">НИК <i class="far fa-user-circle"></i></a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">админка</a></li>
-                                    <li><a class="dropdown-item" href="#">модерация</a></li>
-                                </ul>
-                            </li>
+            <aside class="city">
+                <span class="name-city"> Выбирете город для подачи заявки</span>
+                <ul class="list-city">
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu name-city city-link"
+                            href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Ковчег </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">КЛАН</a></li>
+                            <li><a class="dropdown-item" href="#">НАЙМЫ</a></li>
+                            <li><a class="dropdown-item" href="#">ТРАВНИКИ</a></li>
+                            <li><a class="dropdown-item" href="#">ОБЩИЕ</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu name-city city-link"
+                            href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Сморье </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">КЛАН</a></li>
+                            <li><a class="dropdown-item" href="#">НАЙМЫ</a></li>
+                            <li><a class="dropdown-item" href="#">ТРАВНИКИ</a></li>
+                            <li><a class="dropdown-item" href="#">ОБЩИЕ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle link-menu name-city city-link"
+                            href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Утес дракона </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">КЛАН</a></li>
+                            <li><a class="dropdown-item" href="#">НАЙМЫ</a></li>
+                            <li><a class="dropdown-item" href="#">ТРАВНИКИ</a></li>
+                            <li><a class="dropdown-item" href="#">ОБЩИЕ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+        <section class="list-zayavki">
+            <h3 class="title-list">Проверенные заявки</h3>
+            <div class="row row-cols-2 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 bg-success text-white">
+                        <div class="card-header">Заголовок заявки </div>
+                        <div class="card-body">
+                            <h5 class="card-title"> Вступление в клан (Ковчег)</h5>
+                            <p class="card-text">Б/П - чисто</p>
+                            <p class="card-text">чист *Дракон</p>
+                        </div>
+
+
                     </div>
                 </div>
-            </nav>
-            <div id="shilula_banner" class="shilula_banner"><a href="https://shilula.ru" target="_blank"><img
-                        src="https://shilula.ru/shilula_button/?theme=light"></a></div>
-        </aside>
-        <main class="container">
-            <section class="news">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item active" aria-current="page">Home</li>
-                    </ol>
-                </nav>
-                <div class="container">
+                <div class="col">
+                    <div class="card h-100 bg-warning text-black">
+                        <div class="card-header">заголовок не закрытой заявки </div>
+                        <div class="card-body">
+                            <h5 class="card-title"> Вступление в клан (Ковчег)</h5>
+                            <p class="card-text">Б/П *дракон</p>
+                            <p class="card-text"><a href="https://dragons.apeha.ru/ ">разбор</a></p>
+                        </div>
 
-            </section>
-        </main>
-        <footer class="container">
-            <div><span>© Орден Драконов 2021</span></div>
-        </footer>
-    </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-danger text-black">
+                        <div class="card-header">Заголовок заявки закрытой с нарушением / либо отказ </div>
+                        <div class="card-body">
+                            <h5 class="card-title"> Вступление в клан (Ковчег)</h5>
+                            <p class="card-text">отметки по чистоте</p>
+                        </div>
+
+
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="container">
+        <div><span>© Орден Драконов 2021</span></div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
