@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/bg.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.fa-user-circle {
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+nav.navbar .dropdown:hover>.dropdown-menu {
+    display: block;
+    transition: display 2.8s ease-out;
+}
+
+.dropdown-menu {
+    right: 0 !important;
+    left: auto;
+    z-index: 101;
+}
+
+.dropdown-menu[style] {
+    right: 0;
+}
+
+.top-menu {
+    justify-content: space-between;
+    padding-right: 25px;
+    z-index: 1;
+
+}
+
+.dropdown-item:hover {
+
+    color: brown;
+
+}
+
+.nav-link {
+    font-size: 18px;
+    color: black;
+
+}
+
+.navbar {
+    margin-bottom: 15px;
+}
+
+.navbar-expand-lg {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(243, 149, 9, 0.248);
+}
+
+.logo-img {
+    width: 150px;
+
+}
+
+.nav-link:hover {
+    color: rgb(255, 47, 0);
+
+}
+
+/* block news*/
+.news {
+    margin-bottom: 25px;
+}
+
+
+.breadcrumb-item.active {
+    margin: 25px 0 0 55px;
+    color: white;
+
+}
+
+.img-news {
+    padding: 10px;
+    width: 150px;
+}
+
+.card {
+    max-width: 540px;
+}
+
+.card-body {
+    margin-left: 15px;
+}
+
+.new-bottom {
+    flex: 0 0 auto;
+}
+
+.btn-primary {
+    background-color: orange;
+    border-color: coral;
+    color: black;
+    transition: background-color .4s ease-in;
+}
+
+.btn-primary:hover {
+    background-color: rgb(240, 83, 21);
+    border-color: coral;
+    color: black;
+    transition: background-color .4s ease-in-out;
+}
+
+
+
+/*block footer*/
+
+footer {
+    flex: 0 0 auto;
+    margin: 45px;
+}
+
+footer span {
+    color: beige;
+}
+
+
+
+.right-menu {
+    /* background: #f0f0f0; */
+    padding: 10px;
+    width: 200px;
+    float: right;
+    position: sticky;
+    top: 0px;
+    right: 10px;
+    z-index: 1;
+    min-height: 5em;
+}
+
+.city {
+    margin-left: 50px;
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+
+.name-city {
+    color: whitesmoke;
+}
+
+.list-city {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.city-link {
+    padding-left: 0;
+}
+
+.title-list {
+    color: bisque;
+}
+
+.card-sud {
+    max-width: 1020px;
+
+}
+
+.news-sud {
+    justify-content: center;
+}
+
+.list-sud-news {
+    justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }
+
+
+
+    .list-sud-news {
+        justify-content: center;
+    }
+}
