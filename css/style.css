@@ -85,8 +85,9 @@ body {
 }
 
 .breadcrumb-item.active {
-    margin-top: 25px;
+    margin: 25px 0 0 55px;
     color: white;
+
 }
 
 .img-news {
@@ -108,10 +109,15 @@ body {
 
 /*block footer*/
 
-.footer {
-    /* flex: 0 0 auto; */
-    /* margin-top: 25px; */
+footer {
+    flex: 0 0 auto;
+    margin: 45px;
 }
+
+footer span {
+    color: beige;
+}
+
 
 
 .right-menu {
@@ -127,6 +133,7 @@ body {
 }
 
 .city {
+    margin-left: 50px;
     float: left;
     padding: 10px;
     width: 200px;
@@ -147,7 +154,9 @@ body {
     padding-left: 0;
 }
 
-.list-zayavki {}
+.title-list {
+    color: bisque;
+}
 
 @media screen and (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
