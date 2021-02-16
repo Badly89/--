@@ -16,10 +16,24 @@ body {
     padding-left: 5px;
 }
 
-nav.navbar .dropdown:hover>.dropdown-menu {
-    display: block;
-    transition: display 2.8s ease-out;
-}
+// show>.dropdown-menu {
+//     max-height: 800px;
+//     visibility: visible;
+// }
+
+// .dropdown-menu {
+//     display: block;
+//     max-height: 0;
+//     visibility: hidden;
+//     transition: all 0.4s ease-in-out;
+//     overflow: hidden;
+// }
+
+
+// nav.navbar .dropdown:hover>.dropdown-menu {
+//     display: block;
+//     transition: display 2.8s ease-out;
+// }
 
 .dropdown-menu {
     right: 0 !important;
@@ -37,6 +51,7 @@ nav.navbar .dropdown:hover>.dropdown-menu {
     z-index: 1;
 
 }
+
 
 .dropdown-item:hover {
 
@@ -184,9 +199,9 @@ footer span {
         flex-direction: column;
     }
 
-
-
     .list-sud-news {
         justify-content: center;
     }
+
+
 }
